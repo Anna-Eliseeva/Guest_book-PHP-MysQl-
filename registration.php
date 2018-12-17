@@ -65,6 +65,7 @@ if (empty($errors)) {
         'first_name' => $_POST['first_name'],
         'last_name' => $_POST['last_name']
     ]);
+    header('Location: /login.php?registration=1');
 }
 
 $user = !empty($_POST['user_name']) ? $_POST['user_name'] : '';

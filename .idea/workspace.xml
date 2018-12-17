@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85f6d901-fb04-41af-b6c8-30de13b0c8f7" name="Default Changelist" comment="" />
+    <list default="true" id="85f6d901-fb04-41af-b6c8-30de13b0c8f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/registration.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,11 +40,18 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="guest_book: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="guest_book@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="guest_book: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="comments: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="75">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="209">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/815ac3a4-bc0d-46b7-9c75-49ac4238f20d/console.sql">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,11 +70,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/registration.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="678">
-              <caret line="73" column="2" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="2" />
+            <state relative-caret-position="588">
+              <caret line="67" column="47" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="515">
+              <caret line="43" column="80" selection-start-line="43" selection-start-column="80" selection-end-line="43" selection-end-column="80" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -92,12 +125,14 @@
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/815ac3a4-bc0d-46b7-9c75-49ac4238f20d/console.sql" />
         <option value="$PROJECT_DIR$/config.php" />
-        <option value="$PROJECT_DIR$/registration.php" />
         <option value="$PROJECT_DIR$/../yiishop/basic/runtime/debug/index.data" />
         <option value="$PROJECT_DIR$/../yiishop/basic/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/../yiishop/basic/views/site/index.php" />
         <option value="$PROJECT_DIR$/../yiishop/basic/web/js/main.js" />
         <option value="$PROJECT_DIR$/../yiishop/basic/assets/AppAsset.php" />
+        <option value="$PROJECT_DIR$/registration.php" />
+        <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -168,18 +203,18 @@
       <workItem from="1544881024245" duration="8380000" />
       <workItem from="1544894730112" duration="1496000" />
       <workItem from="1544973509538" duration="132000" />
-      <workItem from="1545061686666" duration="219000" />
+      <workItem from="1545061686666" duration="4898000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10227000" />
+    <option name="totallyTimeSpent" value="14906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20113085" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14135703" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -199,7 +234,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.01453958" />
+      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,8 +300,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/registration.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="73" column="2" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="2" />
+        <state relative-caret-position="588">
+          <caret line="67" column="47" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="43" column="80" selection-start-line="43" selection-start-column="80" selection-end-line="43" selection-end-column="80" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
         </state>
       </provider>
     </entry>
